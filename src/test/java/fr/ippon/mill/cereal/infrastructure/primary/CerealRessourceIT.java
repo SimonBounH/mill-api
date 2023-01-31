@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @AutoConfigureMockMvc
-@Disabled("Cereal API is not implemented")
+//@Disabled("Cereal API is not implemented")
 class CerealRessourceIT {
 
     @Autowired
